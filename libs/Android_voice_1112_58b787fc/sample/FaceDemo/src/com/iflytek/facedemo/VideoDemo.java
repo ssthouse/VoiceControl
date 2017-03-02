@@ -1,7 +1,5 @@
 ﻿package com.iflytek.facedemo;
 
-import java.io.IOException;
-
 import android.Manifest.permission;
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -37,6 +35,8 @@ import com.iflytek.cloud.util.Accelerometer;
 import com.iflytek.facedemo.util.FaceRect;
 import com.iflytek.facedemo.util.FaceUtil;
 import com.iflytek.facedemo.util.ParseResult;
+
+import java.io.IOException;
 
 /**
  * 离线视频流检测示例

@@ -3,9 +3,9 @@
  */
 package com.iflytek.ise.result;
 
-import java.util.ArrayList;
-
 import com.iflytek.ise.result.entity.Sentence;
+
+import java.util.ArrayList;
 
 /**
  * <p>Title: Result</p>

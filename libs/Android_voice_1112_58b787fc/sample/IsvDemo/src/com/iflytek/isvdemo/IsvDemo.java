@@ -1,9 +1,5 @@
 package com.iflytek.isvdemo;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -30,6 +26,10 @@ import com.iflytek.cloud.SpeechError;
 import com.iflytek.cloud.SpeechListener;
 import com.iflytek.cloud.VerifierListener;
 import com.iflytek.cloud.VerifierResult;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 /**
  * 声纹密码示例

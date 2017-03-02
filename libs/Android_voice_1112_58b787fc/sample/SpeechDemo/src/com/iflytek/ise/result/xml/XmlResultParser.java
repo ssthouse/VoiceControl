@@ -3,14 +3,6 @@
  */
 package com.iflytek.ise.result.xml;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
-
 import android.text.TextUtils;
 import android.util.Xml;
 
@@ -23,6 +15,14 @@ import com.iflytek.ise.result.entity.Phone;
 import com.iflytek.ise.result.entity.Sentence;
 import com.iflytek.ise.result.entity.Syll;
 import com.iflytek.ise.result.entity.Word;
+
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
 
 /**
  * <p>Title: XmlResultParser</p>

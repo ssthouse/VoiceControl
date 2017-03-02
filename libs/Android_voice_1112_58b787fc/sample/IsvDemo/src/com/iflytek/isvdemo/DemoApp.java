@@ -1,8 +1,8 @@
 package com.iflytek.isvdemo;
 
-import com.iflytek.cloud.SpeechUtility;
-
 import android.app.Application;
+
+import com.iflytek.cloud.SpeechUtility;
 
 public class DemoApp extends Application{
 	@Override

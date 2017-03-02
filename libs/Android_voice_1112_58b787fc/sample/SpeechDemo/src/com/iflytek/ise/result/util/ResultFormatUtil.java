@@ -3,12 +3,12 @@
  */
 package com.iflytek.ise.result.util;
 
-import java.util.ArrayList;
-
 import com.iflytek.ise.result.entity.Phone;
 import com.iflytek.ise.result.entity.Sentence;
 import com.iflytek.ise.result.entity.Syll;
 import com.iflytek.ise.result.entity.Word;
+
+import java.util.ArrayList;
 
 /**
  * <p>Title: ResultFormatUtl</p>

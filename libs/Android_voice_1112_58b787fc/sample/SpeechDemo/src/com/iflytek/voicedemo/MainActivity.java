@@ -1,7 +1,5 @@
 package com.iflytek.voicedemo;
 
-import com.iflytek.sunflower.FlowerCollector;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
@@ -15,6 +13,8 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.iflytek.sunflower.FlowerCollector;
 
 public class MainActivity extends Activity implements OnClickListener {
 

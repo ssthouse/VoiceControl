@@ -1,14 +1,14 @@
 package com.iflytek.facedemo.util;
 
-import java.util.Iterator;
+import android.graphics.Point;
+import android.text.TextUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
-import android.graphics.Point;
-import android.text.TextUtils;
+import java.util.Iterator;
 
 public class ParseResult {
 	/**

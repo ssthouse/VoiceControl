@@ -1,11 +1,5 @@
 package com.iflytek.voicedemo;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
@@ -40,6 +34,12 @@ import com.iflytek.speech.util.ApkInstaller;
 import com.iflytek.speech.util.FucUtil;
 import com.iflytek.speech.util.JsonParser;
 import com.iflytek.sunflower.FlowerCollector;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 public class IatDemo extends Activity implements OnClickListener {
 	private static String TAG = IatDemo.class.getSimpleName();

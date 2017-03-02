@@ -1,10 +1,5 @@
 package com.iflytek.facedemo;
 
-import java.io.File;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
@@ -35,6 +30,11 @@ import com.iflytek.cloud.FaceDetector;
 import com.iflytek.facedemo.util.FaceRect;
 import com.iflytek.facedemo.util.FaceUtil;
 import com.iflytek.facedemo.util.ParseResult;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.File;
 
 /**
  * 离线人脸检测示例

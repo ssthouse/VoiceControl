@@ -9,11 +9,21 @@
     tools:context="com.ssthouse.voicecontrol.MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
+        android:id="@+id/id_iv_home"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/ic_launcher"
         android:elevation="8dp"
         android:padding="8dp"
-        android:src="@drawable/img" />
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="头像图片" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,7 +34,38 @@
             android:id="@+id/id_btn_start"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:tag="开始" />
+            android:text="开始按钮" />
+
+
+        <Button
+            android:id="@+id/id_btn_pause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="暂停按钮" />
+
+
+        <Button
+            android:id="@+id/id_btn_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="结束按钮" />
     </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/id_upload_grammar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上传语法文件" />
+
+    <Button
+        android:id="@+id/id_btn_voice_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始语音监听" />
 
 </LinearLayout>

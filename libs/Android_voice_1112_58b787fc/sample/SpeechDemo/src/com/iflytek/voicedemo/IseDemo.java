@@ -1,15 +1,5 @@
 package com.iflytek.voicedemo;
 
-import com.iflytek.ise.result.Result;
-import com.iflytek.ise.result.xml.XmlResultParser;
-import com.iflytek.speech.setting.IseSettings;
-import com.iflytek.sunflower.FlowerCollector;
-import com.iflytek.cloud.EvaluatorListener;
-import com.iflytek.cloud.EvaluatorResult;
-import com.iflytek.cloud.SpeechConstant;
-import com.iflytek.cloud.SpeechError;
-import com.iflytek.cloud.SpeechEvaluator;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -23,6 +13,16 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.iflytek.cloud.EvaluatorListener;
+import com.iflytek.cloud.EvaluatorResult;
+import com.iflytek.cloud.SpeechConstant;
+import com.iflytek.cloud.SpeechError;
+import com.iflytek.cloud.SpeechEvaluator;
+import com.iflytek.ise.result.Result;
+import com.iflytek.ise.result.xml.XmlResultParser;
+import com.iflytek.speech.setting.IseSettings;
+import com.iflytek.sunflower.FlowerCollector;
 
 /**
  * 语音评测demo

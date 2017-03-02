@@ -1,6 +1,7 @@
 package com.iflytek.facedemo;
 
 import android.app.Application;
+
 import com.iflytek.cloud.SpeechUtility;
 
 public class SpeechApp extends Application {

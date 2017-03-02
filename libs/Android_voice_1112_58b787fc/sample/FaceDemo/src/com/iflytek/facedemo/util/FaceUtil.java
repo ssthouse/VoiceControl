@@ -1,12 +1,5 @@
 package com.iflytek.facedemo.util;
 
-import java.io.File;
-import java.io.FileFilter;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.regex.Pattern;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -15,13 +8,20 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.Paint;
+import android.graphics.Paint.Style;
 import android.graphics.Point;
 import android.graphics.Rect;
-import android.graphics.Paint.Style;
 import android.media.ExifInterface;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
+
+import java.io.File;
+import java.io.FileFilter;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.regex.Pattern;
 
 public class FaceUtil {
 	public final static int REQUEST_PICTURE_CHOOSE = 1;
